@@ -19,9 +19,11 @@ newGame.addEventListener("click", () => {
   document.location.reload(true);
 });
 
-allKostebek.forEach((a) => {
+kostebeks.forEach((a) => {
   a.addEventListener("click", (e) => {
     scores.innerHTML = `Score : ${score++}`;
+    a.classList.remove("active");
+    console.log(a.classList);
   });
 });
 

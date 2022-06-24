@@ -37,7 +37,7 @@ body {
 .toprak {
   position: relative;
   /* margin-bottom: 150px; */
-  margin: 90px 0;
+  margin: 50px 0;
   z-index: 3;
 }
 
@@ -50,6 +50,10 @@ button {
   height: 250px;
 }
 
+.kostebek img:hover {
+  cursor: pointer;
+}
+
 .kostebek {
   position: absolute;
   left: 50%;
@@ -60,11 +64,12 @@ button {
 }
 
 .kostebek.active {
-  top: -90px;
+  top: -140px;
 }
 
 .kostebek img {
   width: 120px;
+  /* background-color: pink; */
 }
 
 .cont {
