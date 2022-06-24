@@ -29,13 +29,14 @@ body {
   align-items: center;
   flex-wrap: wrap;
   width: 1200px;
-  gap: 255px;
-  /* background-color: black; */
+  /* gap: 255px; */
+  background-color: black;
 }
 
 .toprak {
   position: relative;
   /* margin-bottom: 150px; */
+  margin: 90px;
 }
 
 .toprak img {
