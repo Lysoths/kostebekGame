@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  margin-top: 10px;
 }
 
 .time {
@@ -30,13 +31,17 @@ body {
   flex-wrap: wrap;
   width: 1200px;
   /* gap: 255px; */
-  background-color: black;
+  /* background-color: black; */
 }
 
 .toprak {
   position: relative;
   /* margin-bottom: 150px; */
   margin: 90px;
+}
+
+button {
+  padding: 10px 20px;
 }
 
 .toprak img {
